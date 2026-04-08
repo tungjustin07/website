@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #333;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+
+header h1 a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+nav a {
+  color: #4a7bb5;
+  text-decoration: none;
+  margin-right: 12px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a.active {
+  color: #333;
+  font-weight: 600;
+}
+
+main {
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+a {
+  color: #4a7bb5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 6px;
+}
+
+.book-great {
+  background-color: #d4edda;
+  padding: 2px 4px;
+}
+
+.book-good {
+  background-color: #d6eaf8;
+  padding: 2px 4px;
+}
+
+.photo-placeholder {
+  width: 120px;
+  height: 120px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #999;
+}
+
+.elsewhere a {
+  margin-right: 14px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 20px 16px;
+  }
+  nav a {
+    margin-right: 8px;
+    font-size: 13px;
+  }
+}
