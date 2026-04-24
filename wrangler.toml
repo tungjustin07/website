@@ -1,5 +1,5 @@
-name = "lingering-salad-0340"
+name = "website"
 compatibility_date = "2025-01-01"
 
 [assets]
-directory = "."
+directory = "public"
